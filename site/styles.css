@@ -42,3 +42,16 @@ css/* Container to space the buttons out */
 .btn:active {
   transform: scale(0.98);
 }
+/* Container styling for the book cover */
+.cover-wrap {
+  max-width: 320px; /* Limits the max size on desktop so it doesn't get massive */
+  margin: 0 auto;
+}
+
+/* Make the high-res image scale cleanly */
+.book-cover {
+  width: 100%;
+  height: auto;
+  display: block;
+  image-rendering: -webkit-optimize-contrast; /* Keeps text on the cover crisp */
+}
